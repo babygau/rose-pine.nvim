@@ -1,0 +1,13 @@
+@document.meta
+title: TODO
+authors: babygau
+categories:
+created: 2022-09-10
+version: 0.0.13
+@end
+
+* TODO
+	#time.start 2022-09-10
+	- [x] Using new API `vim.api.nvim_set_hl()`
+	- [x] Change `muted` color
+	- [ ] Fix `Neorg` heading color

@@ -34,11 +34,11 @@ local config = {
 		git_text = 'rose',
 
 		headings = {
-			h1 = 'iris',
-			h2 = 'foam',
-			h3 = 'rose',
-			h4 = 'gold',
-			h5 = 'pine',
+			h1 = 'love',
+			h2 = 'rose',
+			h3 = 'pine',
+			h4 = 'iris',
+			h5 = 'gold',
 			h6 = 'foam',
 		},
 	},
