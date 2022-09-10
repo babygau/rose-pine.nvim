@@ -11,6 +11,11 @@
     </a>
 </p>
 
+# NOTE: this is a fork of `rose-pine`
+This fork is a combination between `Rosé Pine` and `Dracula`. I find it work wonder to my eyes.
+
+If you want to try it, please use **moon** variant. Because Dracula love the moon, doesn't he :)
+
 ## Usage
 
 > With [packer.nvim](https://github.com/wbthomason/packer.nvim)
@@ -30,13 +35,16 @@ _Supported plugins are listed in the [wiki](https://github.com/rose-pine/neovim/
 
 ## Gallery
 
-**Rosé Pine**
 
-![Rosé Pine with Neovim](https://user-images.githubusercontent.com/1973/163921570-0f577baf-3199-4f09-9779-a7eb9238151a.png)
 
 **Rosé Pine Moon**
 
-![Rosé Pine Moon with Neovim](https://user-images.githubusercontent.com/1973/163921620-d3acd0d2-d227-4d28-a5e8-97ff22e56c6d.png)
+<img width="2554" alt="Screen Shot 2022-09-10 at 8 36 46 pm" src="https://user-images.githubusercontent.com/1514823/189479679-f6e98637-20d3-4448-a7de-947ed351c1bc.png">
+
+
+**Rosé Pine**
+
+![Rosé Pine with Neovim](https://user-images.githubusercontent.com/1973/163921570-0f577baf-3199-4f09-9779-a7eb9238151a.png)
 
 **Rosé Pine Dawn**
 
@@ -51,7 +59,7 @@ Variant respects `vim.o.background`, using dawn when light and `dark_variant` wh
 ```lua
 require('rose-pine').setup({
 	--- @usage 'main' | 'moon'
-	dark_variant = 'main',
+	dark_variant = 'moon',
 	bold_vert_split = false,
 	dim_nc_background = false,
 	disable_background = false,
