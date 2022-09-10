@@ -16,6 +16,12 @@ This fork is a combination between `Rosé Pine` and `Dracula`. I find it work wo
 
 If you want to try it, please use **moon** variant. Because Dracula love the moon, doesn't he :)
 
+**Features:**
+- Use new `vim.api_nvim_set_hl()` API
+- Add more plugins
+  - [nvim-ts-rainbow](https://github.com/p00f/nvim-ts-rainbow)
+  - [harpoon](https://github.com/ThePrimeagen/harpoon)
+
 ## Usage
 
 > With [packer.nvim](https://github.com/wbthomason/packer.nvim)
