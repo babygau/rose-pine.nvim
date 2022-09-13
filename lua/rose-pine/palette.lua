@@ -33,8 +33,8 @@ local variants = {
 		foam = '#8be9fd',
 		iris = '#bd93f9',
 		highlight_low = blend('#ff79c6', '#000000', 0.5),
-		highlight_med = blend('#f6c177', '#000000', 0.75),
-		highlight_high = blend('#bd93f9', '#000000', 0.75),
+		highlight_med = blend('#bd93f9', '#000000', 0.75),
+		highlight_high = blend('#50fa7b', '#000000', 0.75),
 		none = 'NONE',
 	},
 	dawn = {
