@@ -74,9 +74,9 @@ function M.get(config)
     StatusLineNC = { fg = p.muted, bg = styles.background },
     StatusLineTerm = { link = 'StatusLine' },
     StatusLineTermNC = { link = 'StatusLineNC' },
-    TabLine = { fg = p.subtle, bg = styles.float_background, sp = p.love },
-    TabLineFill = { bg = styles.float_background, sp = p.love },
-    TabLineSel = { fg = p.text, bg = p.overlay, sp = p.love },
+    TabLine = { fg = p.subtle, bg = styles.float_background },
+    TabLineFill = { bg = styles.float_background },
+    TabLineSel = { fg = p.text, bg = p.love },
     Title = { fg = p.text },
     VertSplit = { fg = groups.border, bg = styles.vert_split },
     Visual = { bg = p.highlight_med },
@@ -473,6 +473,10 @@ function M.get(config)
     -- j-hui/fidget.nvim
     FidgetTitle = { fg = p.love },
     FidgetTask = { fg = p.pine },
+
+    -- akinsho/bufferline.nvim
+    -- BufferLineIndicatorSelected = { sp = p.love },
+    -- BufferLineBufferSelected = { sp = p.love },
   }
 
   vim.g.terminal_color_0 = p.overlay -- black
