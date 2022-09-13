@@ -473,10 +473,6 @@ function M.get(config)
     -- j-hui/fidget.nvim
     FidgetTitle = { fg = p.love },
     FidgetTask = { fg = p.pine },
-
-    -- akinsho/bufferline.nvim
-    -- BufferLineIndicatorSelected = { sp = p.love },
-    -- BufferLineBufferSelected = { sp = p.love },
   }
 
   vim.g.terminal_color_0 = p.overlay -- black
