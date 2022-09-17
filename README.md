@@ -23,6 +23,8 @@ If you want to try it, please use **moon** variant. Because Dracula love the moo
   - [nvim-ts-rainbow](https://github.com/p00f/nvim-ts-rainbow)
   - [harpoon](https://github.com/ThePrimeagen/harpoon)
   - [fidget.nvim](https://github.com/j-hui/fidget.nvim)
+- [lualine](https://github.com/nvim-lualine/lualine.nvim) got transparent theme
+  - Use `rose-pine-transparent`
 
 ## Usage
 
