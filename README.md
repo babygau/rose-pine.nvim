@@ -34,7 +34,6 @@ If you want to try it, please use **moon** variant. Because Dracula love the moo
 use({
     'rose-pine/neovim',
     as = 'rose-pine',
-    tag = 'v1.*',
     config = function()
         vim.cmd('colorscheme rose-pine')
     end
