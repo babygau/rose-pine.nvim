@@ -3,20 +3,17 @@ local blend = require('rose-pine.util').blend
 local M = {}
 
 function M.get(config)
-  local p = require('rose-pine.palette')
+  local p = require 'rose-pine.palette'
 
   local theme = {}
   local groups = config.groups or {}
   local styles = {
     italic = not config.disable_italics,
     vert_split = (config.bold_vert_split and groups.border) or p.none,
-    background = (config.disable_background and p.none)
-        or groups.background,
-    float_background = (config.disable_float_background and p.none)
-        or groups.panel,
+    background = (config.disable_background and p.none) or groups.background,
+    float_background = (config.disable_float_background and p.none) or groups.panel,
   }
-  styles.nc_background = (config.dim_nc_background and groups.panel)
-      or styles.background
+  styles.nc_background = (config.dim_nc_background and groups.panel) or styles.background
 
   theme = {
     ColorColumn = { bg = p.overlay },
@@ -406,6 +403,7 @@ function M.get(config)
 
     -- ThePrimeagen/harpoon
     HarpoonBorder = { fg = groups.border },
+    HarpoonCurrentFile = { fg = p.pine },
 
     -- nvim-telescope/telescope.nvim
     TelescopeBorder = { fg = groups.border },
@@ -413,8 +411,8 @@ function M.get(config)
     TelescopeNormal = { fg = p.text },
     TelescopePromptNormal = { fg = p.text },
     TelescopePromptPrefix = { fg = p.rose },
-    TelescopeSelection = { fg = p.pine, bg = p.overlay },
-    TelescopeSelectionCaret = { fg = p.rose, bg = p.overlay },
+    TelescopeSelection = { fg = p.pine, bg = p.none },
+    TelescopeSelectionCaret = { fg = p.rose, bg = p.none },
     TelescopeTitle = { fg = p.text },
 
     -- rcarriga/nvim-notify
