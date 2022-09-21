@@ -46,7 +46,7 @@ _Supported plugins are listed in the [wiki](https://github.com/rose-pine/neovim/
 
 **Rosé Pine Moon**
 
-![Rosé Pine Moon with Neovim](https://user-images.githubusercontent.com/1514823/189479679-f6e98637-20d3-4448-a7de-947ed351c1bc.png")
+![Rosé Pine Moon with Neovim](https://user-images.githubusercontent.com/1514823/189479679-f6e98637-20d3-4448-a7de-947ed351c1bc.png)
 
 **Rosé Pine**
 
