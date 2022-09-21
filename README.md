@@ -48,6 +48,10 @@ _Supported plugins are listed in the [wiki](https://github.com/rose-pine/neovim/
 
 ![Rosé Pine Moon with Neovim](https://user-images.githubusercontent.com/1514823/189479679-f6e98637-20d3-4448-a7de-947ed351c1bc.png)
 
+**Rosé Pine Moon Transparent**
+
+![Rosé Pine Moon Transparent with Neovim](https://user-images.githubusercontent.com/1514823/191449819-2dfef677-a1bb-438b-9c8d-b7b4a77f3439.png)
+
 **Rosé Pine**
 
 ![Rosé Pine with Neovim](https://user-images.githubusercontent.com/1973/163921570-0f577baf-3199-4f09-9779-a7eb9238151a.png)
